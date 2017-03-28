@@ -1,0 +1,17 @@
+{% extends 'web/base.html' %}
+
+{% block content %}
+<div class="row">
+	<div class="col-sm-8">
+		<div class="jumbotron">
+			<div class="text-center">
+		  		<h1>Welcome to Aloha</h1>
+		  		<h3>the best messaging website you can get</h3>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		{% include 'web/login.html' %}
+	</div>
+</div>
+{% endblock %}
